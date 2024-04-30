@@ -6,14 +6,18 @@ import { useState } from "react";
 import logo from "./images/MyLogo2.png"
 import portrait from "./images/portrait.png"
 import back from "./images/soft-wallpaper.png"
+
+
+
 function App() {
+
   const [darkMode, setDarkMode] = useState(false);
   return (
-    <div className={darkMode ? "dark" : ""} >
-      <main className=" bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40" style={{backgroundImage: `url(${back})`}}>
+    <div className={darkMode ? "dark" : ""}>
+      <main className=" bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40" style={{ backgroundImage: `url(${back})` }}>
         <section className="min-h-screen">
           <nav className="pt-5 -mb-8 flex justify-between dark:text-white">
-            <img className="object-fill h-24 w-24 md:h-32 md:w-32" src={logo} />
+            <img className="object-fill h-20 w-20 md:h-32 md:w-32" src={logo} />
             <ul className="flex items-center">
               <li>
                 <BsFillMoonStarsFill
@@ -23,8 +27,8 @@ function App() {
               </li>
               <li>
                 <a
-                  className="bg-gradient-to-r from-fuchsia-300 text- to-indigo-400 text-white px-4 py-2 border-none rounded-md ml-8"
-                  href="#"
+                  className="bg-gradient-to-r from-[#F6C4C4] text- to-[#B3B8FD] text-white px-4 py-2 border-none rounded-md ml-8"
+                  href="https://drive.google.com/file/d/1HCoHMBY8EZjO4mIr14ZSatgh2X0Cs8Zz/view?usp=sharing"
                 >
                   Resume
                 </a>
@@ -32,19 +36,19 @@ function App() {
             </ul>
           </nav>
           <div className="text-center p-10 py-10">
-            <h2 className="text-4xl py-2 text-indigo-400 font-medium dark:text-indigo-400 md:text-6xl">
+            <h2 className="text-4xl py-2 text-[#B3B8FD] font-medium dark:text-[#B3B8FD] md:text-6xl">
               Alina Kulakovska
             </h2>
             <h3 className="text-2xl py-2 dark:text-white md:text-3xl">
               Front-end developer
             </h3>
             <div className="flex justify-center">
-            <img className="object-fill w-96" src={portrait}  alt="person"/>
+              <img className="object-fill w-full md:w-1/2" src={portrait} alt="person" />
             </div>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
               Freelancer providing services for programming content
               needs. Join me down below and let's get cracking!
-              <br /><span className="text-indigo-400">e-mail: kulakovska07@gmail.com</span>
+              <br /><span className="text-[#B3B8FD]">e-mail: kulakovska07@gmail.com</span>
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
               <a href={"https://github.com/AlinaKulakovska"}><AiFillGithub /></a>
@@ -58,8 +62,8 @@ function App() {
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
               Since the beginning of my journey as a freelance designer and
               developer, I've done remote work for
-              <span className="text-indigo-400"> agencies </span>
-              consulted for <span className="text-indigo-400">startups </span>
+              <span className="text-[#B3B8FD]"> agencies </span>
+              consulted for <span className="text-[#B3B8FD]">startups </span>
               and collaborated with talanted people to create digital products
               for both business and consumer use.
             </p>
@@ -75,7 +79,7 @@ function App() {
                 Do you have an idea for your next great website? Let's make it a
                 reality.
               </p>
-              <h4 className="py-4 text-indigo-400">Programming Tools I Use</h4>
+              <h4 className="py-4 text-[#B3B8FD]">Programming Tools I Use</h4>
               <p className="text-gray-600 py-1 dark:text-gray-200">◈React</p>
               <p className="text-gray-600 py-1 dark:text-gray-200">◈JavaScript</p>
               <p className="text-gray-600 py-1 dark:text-gray-200">◈Tailwindcss</p>
@@ -92,8 +96,8 @@ function App() {
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
               Since the beginning of my journey as a freelance
               developer, I've done remote work for
-              <span className="text-indigo-400"> agencies </span>
-              consulted for <span className="text-indigo-400">startups </span>
+              <span className="text-[#B3B8FD]"> agencies </span>
+              consulted for <span className="text-[#B3B8FD]">startups </span>
               and collaborated with talanted people to create digital products
               for both business and consumer use. I offer coding your website
             </p>
