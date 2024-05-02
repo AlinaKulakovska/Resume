@@ -3,92 +3,125 @@ import { IoIosClose, IoIosRemove, IoLogoJavascript, IoMdBrowsers } from "react-i
 import React from "react";
 
 function MyStack() {
-  
 
 
-    return (
-        <section className="text-slate-600 dark:text-gray-300">
-        <div className="border-2 text-2xl border-slate-600 p-2  flex justify-end dark:border-gray-300 ">
-          <IoIosRemove />
-          <IoMdBrowsers className="ml-2" />
-          <IoIosClose className="ml-2" />
-        </div>
-        <div className="border-2 border-t-0 border-slate-600   dark:border-gray-300 w-100 flex flex-col md:flex-row">
-          <div className="w-full bg-[rgba(157,158,165,0.3)] p-4 md:w-1/3">
-            <h2 className="text-xl font-bold text-center mb-5">
-              Programming tools I use
-              </h2>
-            <div className="flex items-center">
-            <FaHtml5  className="text-3xl mr-2"/>
+
+  return (
+    <section className="text-slate-600 dark:text-gray-300">
+      <div className="border-2 text-2xl border-slate-600 p-2  flex justify-end dark:border-gray-300 ">
+        <IoIosRemove />
+        <IoMdBrowsers className="ml-2" />
+        <IoIosClose className="ml-2" />
+      </div>
+      <div className="border-2 border-t-0 border-slate-600   dark:border-gray-300 w-100 flex flex-col md:flex-row">
+        <div className="w-full bg-[rgba(157,158,165,0.3)] p-4 md:w-1/3 relative">
+          <h2 className="text-6xl font-black right-[5px] top-0 text-[rgba(255,255,255,0.5)] absolute">
+            STACK
+          </h2>
+          <div className="flex items-center mt-20">
+            <FaHtml5 className="text-3xl mr-2" />
             <div className="w-full text-right">
               <h6>HTML</h6>
               <div class="flex w-full h-4 bg-gray-200 border-2 border-slate-600 dark:border-gray-300  placeholder:backdrop: rounded-none overflow-hidden dark:bg-neutral-700" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-              <div class=" w-[80%] flex flex-col justify-center overflow-hidden bg-[#B3B8FD]  text-center"></div>
+                <div class=" w-[80%] flex flex-col justify-center overflow-hidden bg-[#B3B8FD]  text-center"></div>
               </div>
             </div>
-            </div>
-            {/*  */}
-            <div className="flex items-center">
-            <FaCss3  className="text-3xl mr-2"/>
+          </div>
+          {/*  */}
+          <div className="flex items-center">
+            <FaCss3 className="text-3xl mr-2" />
             <div className="w-full text-right">
               <h6>CSS</h6>
               <div class="flex w-full h-4 bg-gray-200 border-2 border-slate-600 dark:border-gray-300  placeholder:backdrop: rounded-none overflow-hidden dark:bg-neutral-700" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-              <div class=" w-[80%] flex flex-col justify-center overflow-hidden bg-[#B3B8FD]  text-center"></div>
+                <div class=" w-[80%] flex flex-col justify-center overflow-hidden bg-[#B3B8FD]  text-center"></div>
               </div>
             </div>
-            </div>
-                {/*  */}
-                <div className="flex items-center">
-            <IoLogoJavascript  className="text-3xl mr-2"/>
+          </div>
+          {/*  */}
+          <div className="flex items-center">
+            <IoLogoJavascript className="text-3xl mr-2" />
             <div className="w-full text-right">
               <h6>JavaScript</h6>
               <div class="flex w-full h-4 bg-gray-200 border-2 border-slate-600 dark:border-gray-300  placeholder:backdrop: rounded-none overflow-hidden dark:bg-neutral-700" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-              <div class=" w-[60%] flex flex-col justify-center overflow-hidden bg-[#B3B8FD]  text-center"></div>
+                <div class=" w-[60%] flex flex-col justify-center overflow-hidden bg-[#B3B8FD]  text-center"></div>
               </div>
             </div>
-            </div>
-            <div className="flex items-center">
-            <FaBootstrap   className="text-3xl mr-2"/>
+          </div>
+          <div className="flex items-center">
+            <FaBootstrap className="text-3xl mr-2" />
             <div className="w-full text-right">
               <h6>Bootstrap</h6>
               <div class="flex w-full h-4 bg-gray-200 border-2 border-slate-600 dark:border-gray-300  placeholder:backdrop: rounded-none overflow-hidden dark:bg-neutral-700" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-              <div class=" w-[75%] flex flex-col justify-center overflow-hidden bg-[#B3B8FD]  text-center"></div>
+                <div class=" w-[75%] flex flex-col justify-center overflow-hidden bg-[#B3B8FD]  text-center"></div>
               </div>
             </div>
-            </div>
-                {/*  */}
-                <div className="flex items-center">
-            <FaFigma  className="text-3xl mr-2"/>
+          </div>
+          {/*  */}
+          <div className="flex items-center">
+            <FaFigma className="text-3xl mr-2" />
             <div className="w-full text-right">
               <h6>Figma</h6>
               <div class="flex w-full h-4 bg-gray-200 border-2 border-slate-600 dark:border-gray-300  placeholder:backdrop: rounded-none overflow-hidden dark:bg-neutral-700" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-              <div class=" w-[55%] flex flex-col justify-center overflow-hidden bg-[#B3B8FD]  text-center"></div>
+                <div class=" w-[55%] flex flex-col justify-center overflow-hidden bg-[#B3B8FD]  text-center"></div>
               </div>
             </div>
-            </div>
-                {/*  */}
-                <div className="flex items-center">
-            <FaReact  className="text-3xl mr-2"/>
+          </div>
+          {/*  */}
+          <div className="flex items-center">
+            <FaReact className="text-3xl mr-2" />
             <div className="w-full text-right">
               <h6>React</h6>
               <div class="flex w-full h-4 bg-gray-200 border-2 border-slate-600 dark:border-gray-300  placeholder:backdrop: rounded-none overflow-hidden dark:bg-neutral-700" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-              <div class=" w-[35%] flex flex-col justify-center overflow-hidden bg-[#B3B8FD]  text-center"></div>
+                <div class=" w-[35%] flex flex-col justify-center overflow-hidden bg-[#B3B8FD]  text-center"></div>
               </div>
             </div>
-            </div>
-                {/*  */}
-                
-            <div className="flex items-center">
-            <FaGit   className="text-3xl mr-2"/> 
-            </div>
+          </div>
+          {/*  */}
+
+          <div className="flex items-center">
+            <FaGit className="text-3xl mr-2" />
+          </div>
+        </div>
+
+        <div className="w-full p-2 md:w-2/3">
+          <div className="w-full relative">
+            <h2 className="text-5xl font-black left-0 top-0 text-[rgba(0,0,0,0.3)] absolute">
+              CAREER
+            </h2>
+          </div>
+          <p className="text-xl mt-16"><a href="https://toyhou.se/_AngeLux_/characters/folder:4475338" className="hover:text-[#F6C4C4] underline hover:no-underline">HTML-Coder, Freelance</a><span className="text-[#B3B8FD] text-lg"> ~ 6 months</span></p>
+
+
+          <div className="w-full relative">
+            <h2 className="text-5xl font-black left-0 top-0 text-[rgba(0,0,0,0.3)] absolute">
+              EDUCATION
+            </h2>
+          </div>
+          <p className="text-xl mt-16">KYIV NATIONAL ECONOMIC UNIVERSITY</p>
+          <p className="text-lg">Cybersecurity <span className="text-[#B3B8FD] ">2020-2024</span></p>
+
+          <div className="w-full relative">
+            <h2 className="text-5xl font-black left-0 top-0 text-[rgba(0,0,0,0.3)] absolute">
+              COURSES
+            </h2>
           </div>
 
+          <p className="text-xl mt-16"><a href="#" className="hover:text-[#F6C4C4] underline hover:no-underline">freeCodeCamp - JavaScript Algorithms and Data Structures</a><span className="text-[#B3B8FD] text-lg"> - 05.2023</span></p>
+          <p className="text-xl "><a href="#" className="hover:text-[#F6C4C4] underline hover:no-underline">scrimba - Learn React</a><span className="text-[#B3B8FD] text-lg"> - 08.2023</span></p>
 
-          <div className="w-full p-2 md:w-2/3">2</div>
+          <div className="w-full relative">
+            <h2 className="text-5xl font-black left-0 top-0 text-[rgba(0,0,0,0.3)] absolute">
+              LANGUAGE
+            </h2>
+          </div>
+          <p className="text-xl mt-16">Ukrainian<span className="text-[#B3B8FD] text-lg"> Native</span></p>
+          <p className="text-xl">English<span className="text-[#B3B8FD] text-lg"> Upper-Intermediate</span></p>
+          <p className="text-xl">Russian<span className="text-[#B3B8FD] text-lg"> Advanced</span></p>
 
         </div>
-      </section>
-    )
+      </div>
+    </section>
+  )
 }
 
 export default MyStack

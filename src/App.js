@@ -74,31 +74,10 @@ function App() {
        
       <MyStack />
 
-        <section className="py-10">
-          <div>
-            <h3 className="text-3xl py-1 dark:text-white ">Portofolio</h3>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              Since the beginning of my journey as a freelance
-              developer, I've done remote work for
-              <span className="text-[#B3B8FD]"> agencies </span>
-              consulted for <span className="text-[#B3B8FD]">startups </span>
-              and collaborated with talanted people to create digital products
-              for both business and consumer use. I offer coding your website
-            </p>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-            </p>
-          </div>
-          <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
-            <div className="basis-1/3 flex-1 ">
-              <a href={"https://alinakulakovska.github.io/TravelBlog/"}>
-                <img alt="site1" className="rounded-lg object-cover" src="https://images-wixmp-530a50041672c69d335ba4cf.wixmp.com/templates/image/db4e33e0c541aae926a1d83ccb0b5ddcd3892c61058561559e3a7ef0e43d6fcb1628693040055.jpg" />
-              </a></div>
-            <div className="basis-1/3 flex-1 ">
-              <a href={"https://alinakulakovska.github.io/Productshop/"}>
-                <img alt="site2" className="rounded-lg object-cover" src="https://images-wixmp-530a50041672c69d335ba4cf.wixmp.com/templates/image/36f43fd77b7af2ba582969c31de1b0e17a79318199328f9bca8b444825d012d71631446807689.jpg" />
-              </a> </div>
-          </div>
-        </section>
+       
+       <section className="mt-20">
+asd
+       </section>
       </main>
     </div>
   );
