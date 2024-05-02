@@ -1,5 +1,7 @@
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { AiFillGithub } from "react-icons/ai";
+
+
 import logo from "./images/MyLogo2.png"
 import portrait from "./images/portrait.png"
 import back from "./images/soft-wallpaper.png"
@@ -7,6 +9,7 @@ import back from "./images/soft-wallpaper.png"
 import React from "react";
 import { useState, useContext } from "react";
 import { LanguageContext } from './languageContext';
+import MyStack from "./components/MyStack";
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -15,7 +18,6 @@ function App() {
   const handleToggleLanguage = () => {
     const newLanguage = language === 'en' ? 'ua' : 'en';
     setLanguage(newLanguage);
-
   };
 
   return (
@@ -69,30 +71,9 @@ function App() {
             </div>
           </div>
         </section>
-        <section>
-          
-          <div className="mx-auto lg:w-1/2 ">
+       
+      <MyStack />
 
-            <div className="text-center shadow-lg p-10 bg-gray-200 text-slate-600 rounded-xl my-10 dark:bg-slate-600 dark:text-gray-200">
-
-              <h3 className="text-lg font-medium pt-8 pb-2 ">
-                Code your dream project
-              </h3>
-              <p className="py-2">
-                Do you have an idea for your next great website? Let's make it a
-                reality.
-              </p>
-              <h4 className="py-4 text-[#B3B8FD]">Programming Tools I Use</h4>
-              <p className="text-gray-600 py-1 dark:text-gray-200">◈React</p>
-              <p className="text-gray-600 py-1 dark:text-gray-200">◈JavaScript</p>
-              <p className="text-gray-600 py-1 dark:text-gray-200">◈Tailwindcss</p>
-              <p className="text-gray-600 py-1 dark:text-gray-200">◈Html\CSS</p>
-              <p className="text-gray-600 py-1 dark:text-gray-200">◈Bootstrap</p>
-              <p className="text-gray-600 py-1 dark:text-gray-200">◈Figma</p>
-            </div>
-
-          </div>
-        </section>
         <section className="py-10">
           <div>
             <h3 className="text-3xl py-1 dark:text-white ">Portofolio</h3>
