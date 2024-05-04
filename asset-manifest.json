@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/Resume/static/css/main.569656f3.css",
-    "main.js": "/Resume/static/js/main.9c34341e.js",
+    "main.css": "/Resume/static/css/main.fa972d39.css",
+    "main.js": "/Resume/static/js/main.9d2c739e.js",
     "static/js/496.c2392886.chunk.js": "/Resume/static/js/496.c2392886.chunk.js",
+    "static/media/alinakulakovska.github.io_Thrive_ (1).png": "/Resume/static/media/alinakulakovska.github.io_Thrive_ (1).eda309368683534883d4.png",
     "static/media/portrait.png": "/Resume/static/media/portrait.95eb40e9b897533f53ce.png",
     "static/media/soft-wallpaper.png": "/Resume/static/media/soft-wallpaper.cd84e7fcd3a86616c18e.png",
     "static/media/MyLogo2.png": "/Resume/static/media/MyLogo2.2f03b510f7d648fc538b.png",
     "index.html": "/Resume/index.html",
-    "main.569656f3.css.map": "/Resume/static/css/main.569656f3.css.map",
-    "main.9c34341e.js.map": "/Resume/static/js/main.9c34341e.js.map",
+    "main.fa972d39.css.map": "/Resume/static/css/main.fa972d39.css.map",
+    "main.9d2c739e.js.map": "/Resume/static/js/main.9d2c739e.js.map",
     "496.c2392886.chunk.js.map": "/Resume/static/js/496.c2392886.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.569656f3.css",
-    "static/js/main.9c34341e.js"
+    "static/css/main.fa972d39.css",
+    "static/js/main.9d2c739e.js"
   ]
 }
