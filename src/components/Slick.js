@@ -12,7 +12,7 @@ export default function SimpleSlider() {
         slidesToScroll: 1,
     };
     return (
-        <Slider {...settings} className="mb-16 w-2/5">
+        <Slider {...settings} className="mb-16 w-full md:w-2/5">
             <div className="">
                 <img className="  rounded-lg" src={'https://storage.ko-fi.com/cdn/useruploads/display/b21601f8-2333-4e08-99f7-6d8c1d5132b5_toyhou.se_~world_168844.p2u-world-csshtml.png'} alt="person" />
             </div>

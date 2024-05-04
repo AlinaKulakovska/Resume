@@ -7,7 +7,7 @@ function MyStack() {
 
 
   return (
-    <section className="text-slate-600 dark:text-gray-300">
+    <section className="text-slate-600 dark:text-gray-300 px-6 md:px-15 lg:px-32 ">
       <div className="border-2 text-2xl border-slate-600 p-2  flex justify-end dark:border-gray-300 ">
         <IoIosRemove />
         <IoMdBrowsers className="ml-2" />
