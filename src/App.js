@@ -15,9 +15,6 @@ import watches from './images/alinakulakovska.github.io_Productshop_.png'
 import watchesbascket from './images/alinakulakovska.github.io_Productshop_busket.html.png'
 import watchesbuy from './images/alinakulakovska.github.io_Productshop_buy.html (1).png'
 
-
-
-
 import React from "react";
 import { useState, useContext } from "react";
 import { LanguageContext } from './languageContext';
@@ -64,7 +61,7 @@ function App() {
               <li>
                 <a
                   className="bg-gradient-to-r from-[#F6C4C4] text- to-[#B3B8FD] text-white px-4 py-2 border-none rounded-md ml-8"
-                  href="https://drive.google.com/file/d/1HCoHMBY8EZjO4mIr14ZSatgh2X0Cs8Zz/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1ESX9l27FmcvKcyEHgkBt_6bEcyG0B-bu/view?usp=sharing"
                 >
                   Resume
                 </a>
@@ -110,19 +107,14 @@ function App() {
               animateOut='bounceOutLeft'>
 
               <div className="ml-0 md:ml-12 p-2 ">
-                <a href="https://alinakulakovska.github.io/Thrive/" ><h3 className="text-right text-2xl m-0 p-0 md:text-4xl italic text-gray-800 dark:text-gray-200 underline hover:sunderline">Thrive Recipes Practice website</h3></a>
+                <a href="https://alinakulakovska.github.io/Thrive/" ><h3 className="text-right text-2xl m-0 p-0 md:text-4xl italic text-gray-800 dark:text-gray-200 underline hover:sunderline"> {languageData.sitename}</h3></a>
 
                 <div className="text-md py-5 text-justify text-gray-800 dark:text-gray-200 ">
                   <p>
-                    This is a practice responsive website where I've integrated a variety of features to demonstrate my proficiency in web development.  </p>
-                  <p className="mt-2"><b>Page Pagination:</b>  I've implemented page pagination which shows 3 recipes per page. </p>
-                  <p className="mt-2"><b>API Fetching Random Meal:</b> I've integrated an API fetching feature that displays random meal suggestions.</p>
-                  <p className="mt-2"><b>Sorting Recipes:</b>  I've included a sorting functionality for recipes. </p>
-                  <p className="mt-2"><b>Searching for Meals: </b> I've incorporated a search feature, allowing users to input keywords and instantly retrieve relevant meal options.</p>
-                  <p className="mt-2"><b>Adding Recipes: </b> Abilitty to add own recipes via form.</p>
-                  <p className="mt-2"><b>Selecting Only Recipes with Specific Category: </b> I've included the option to filter recipes by category.</p>
-                  <p className="mt-2"><b>Local Storage for Parsing Data:</b>  I've utilized local storage to store data of clicked recipes.</p>
-                  <p className="mt-2"><b>For this project i used JS, HTML, CSS</b></p>
+                  {languageData.sitedesc}
+                 </p>
+                 {languageData.siteul}
+        
                 </div>
               </div>
 
@@ -188,7 +180,7 @@ function App() {
                 <div className="text-md py-5 text-justify text-gray-800 dark:text-gray-200 ">
                   <p className="mt-2"><b>Price Rate Conversion via API: </b> Real-time price rate conversion via API ensures that visitors from around the globe can easily understand ticket prices, facilitating a seamless booking experience.</p>
                   <p className="mt-2"><b>Map with Animal Description: </b> An interactive map feature guides users through the zoo's layout while providing insightful descriptions of each animal exhibit, enriching the visitor's journey with educational content.</p>
-                  <p className="mt-2"><b>Ticket Purchase Page:</b>  I've utilized local storage to store data of clicked recipes.</p>
+                  <p className="mt-2"><b>Ticket Purchase Page:</b> with input from which sends out email with purchase information</p>
                   <p className="mt-2"><b>Carousel of Images:</b>  A visually stunning carousel showcases captivating images of various animals, offering visitors a glimpse into the beauty and diversity of the zoo's inhabitants.</p>
                   <p className="mt-2"><b>Modal with animation: </b></p>
                   <p className="mt-2"><b>For this project i used JS, HTML, CSS</b></p>
@@ -207,7 +199,6 @@ function App() {
                   <p className="mt-2"><b>Flowy Front Page: </b> Real-time price rate conversion via API ensures that visitors from around the globe can easily understand ticket prices, facilitating a seamless booking experience.</p>
                   <p className="mt-2"><b>Purchase Page: </b> The purchase page provides customers with the ability to customize their order by selecting their preferred color and quantity for each product. Detailed descriptions of the watch's characteristics help customers make informed decisions.
                   </p>
-                  <p className="mt-2"><b>Customization Options:</b>  I've utilized local storage to store data of clicked recipes.</p>
                   <p className="mt-2"><b>Checkout Page:</b>  Seamlessly transition from product selection to checkout with the user-friendly checkout page. Here, customers can review their selected items, view the total cost, and proceed to finalize their purchase with confidence.
                   </p>
                   <p className="mt-2"><b>For this project i used JS, HTML, CSS</b></p>
