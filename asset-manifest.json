@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Resume/static/css/main.f3144629.css",
-    "main.js": "/Resume/static/js/main.a0fe7134.js",
+    "main.js": "/Resume/static/js/main.aa14ff08.js",
     "static/js/496.c2392886.chunk.js": "/Resume/static/js/496.c2392886.chunk.js",
     "static/media/alinakulakovska.github.io_Productshop_.png": "/Resume/static/media/alinakulakovska.github.io_Productshop_.d41f0135de19b0d168fa.png",
     "static/media/alinakulakovska.github.io_Zoo_ (1).png": "/Resume/static/media/alinakulakovska.github.io_Zoo_ (1).80f5ad123811102cf923.png",
@@ -17,11 +17,11 @@
     "static/media/MyLogo2.png": "/Resume/static/media/MyLogo2.2f03b510f7d648fc538b.png",
     "index.html": "/Resume/index.html",
     "main.f3144629.css.map": "/Resume/static/css/main.f3144629.css.map",
-    "main.a0fe7134.js.map": "/Resume/static/js/main.a0fe7134.js.map",
+    "main.aa14ff08.js.map": "/Resume/static/js/main.aa14ff08.js.map",
     "496.c2392886.chunk.js.map": "/Resume/static/js/496.c2392886.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f3144629.css",
-    "static/js/main.a0fe7134.js"
+    "static/js/main.aa14ff08.js"
   ]
 }
