@@ -22,8 +22,8 @@ function MyStack() {
             <FaHtml5 className="text-3xl mr-2" />
             <div className="w-full text-right">
               <h6>HTML</h6>
-              <div class="flex w-full h-4 bg-gray-200 border-2 border-slate-600 dark:border-gray-300  placeholder:backdrop: rounded-none overflow-hidden dark:bg-neutral-700" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                <div class=" w-[80%] flex flex-col justify-center overflow-hidden bg-[#F6C4C4]  text-center"></div>
+              <div className="flex w-full h-4 bg-gray-200 border-2 border-slate-600 dark:border-gray-300  placeholder:backdrop: rounded-none overflow-hidden dark:bg-neutral-700" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                <div className=" w-[80%] flex flex-col justify-center overflow-hidden bg-[#F6C4C4]  text-center"></div>
               </div>
             </div>
           </div>
@@ -32,8 +32,8 @@ function MyStack() {
             <FaCss3 className="text-3xl mr-2" />
             <div className="w-full text-right">
               <h6>CSS</h6>
-              <div class="flex w-full h-4 bg-gray-200 border-2 border-slate-600 dark:border-gray-300  placeholder:backdrop: rounded-none overflow-hidden dark:bg-neutral-700" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                <div class=" w-[80%] flex flex-col justify-center overflow-hidden bg-[#F6C4C4]  text-center"></div>
+              <div className="flex w-full h-4 bg-gray-200 border-2 border-slate-600 dark:border-gray-300  placeholder:backdrop: rounded-none overflow-hidden dark:bg-neutral-700" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                <div className=" w-[80%] flex flex-col justify-center overflow-hidden bg-[#F6C4C4]  text-center"></div>
               </div>
             </div>
           </div>
@@ -42,8 +42,8 @@ function MyStack() {
             <IoLogoJavascript className="text-3xl mr-2" />
             <div className="w-full text-right">
               <h6>JavaScript</h6>
-              <div class="flex w-full h-4 bg-gray-200 border-2 border-slate-600 dark:border-gray-300  placeholder:backdrop: rounded-none overflow-hidden dark:bg-neutral-700" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                <div class=" w-[60%] flex flex-col justify-center overflow-hidden bg-[#F6C4C4]  text-center"></div>
+              <div className="flex w-full h-4 bg-gray-200 border-2 border-slate-600 dark:border-gray-300  placeholder:backdrop: rounded-none overflow-hidden dark:bg-neutral-700" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                <div className=" w-[60%] flex flex-col justify-center overflow-hidden bg-[#F6C4C4]  text-center"></div>
               </div>
             </div>
           </div>
@@ -51,8 +51,8 @@ function MyStack() {
             <FaBootstrap className="text-3xl mr-2" />
             <div className="w-full text-right">
               <h6>Bootstrap</h6>
-              <div class="flex w-full h-4 bg-gray-200 border-2 border-slate-600 dark:border-gray-300  placeholder:backdrop: rounded-none overflow-hidden dark:bg-neutral-700" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                <div class=" w-[75%] flex flex-col justify-center overflow-hidden bg-[#F6C4C4]  text-center"></div>
+              <div className="flex w-full h-4 bg-gray-200 border-2 border-slate-600 dark:border-gray-300  placeholder:backdrop: rounded-none overflow-hidden dark:bg-neutral-700" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                <div className=" w-[75%] flex flex-col justify-center overflow-hidden bg-[#F6C4C4]  text-center"></div>
               </div>
             </div>
           </div>
@@ -63,8 +63,8 @@ function MyStack() {
             <FaReact className="text-3xl mr-2" />
             <div className="w-full text-right">
               <h6>React</h6>
-              <div class="flex w-full h-4 bg-gray-200 border-2 border-slate-600 dark:border-gray-300  placeholder:backdrop: rounded-none overflow-hidden dark:bg-neutral-700" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                <div class=" w-[35%] flex flex-col justify-center overflow-hidden bg-[#F6C4C4]  text-center"></div>
+              <div className="flex w-full h-4 bg-gray-200 border-2 border-slate-600 dark:border-gray-300  placeholder:backdrop: rounded-none overflow-hidden dark:bg-neutral-700" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                <div className=" w-[35%] flex flex-col justify-center overflow-hidden bg-[#F6C4C4]  text-center"></div>
               </div>
             </div>
           </div>

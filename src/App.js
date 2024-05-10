@@ -70,7 +70,7 @@ function App() {
           </nav>
 
           <div className="text-center py-10">
-            <h2 className="text-4xl py-2 text-[#B3B8FD] font-medium dark:text-[#B3B8FD] md:text-6xl">
+            <h2 className="text-4xl py-2 text-[#B3B8FD] font-medium md:text-6xl">
               {languageData.name}
             </h2>
             <h3 className="text-2xl py-2 dark:text-white md:text-3xl">
@@ -81,7 +81,7 @@ function App() {
                 <img className="object-fit max-w-xs md:max-w-sm" src={portrait} alt="person" />
               </div>
               <div className="ml-0 md:ml-12">
-                <h3 className="text-right text-2xl m-0 p-0 md:text-4xl italic text-gray-800 dark:text-gray-200">Hello,</h3>
+
                 <p className="text-md py-5 text-justify text-gray-800 dark:text-gray-200 ">
                   {languageData.description}
                 </p>
@@ -95,66 +95,67 @@ function App() {
         </section>
 
         <MyStack />
+
+
         <div className=" px-6 lg:px-20 ">
-          <h2 className="text-4xl py-2   text-center text-[#F6C4C4] font-medium dark:text-[#B3B8FD] md:text-6xl mt-24 mb-6">
+          <h2 className="text-4xl py-2   text-center text-[#F6C4C4] font-medium md:text-6xl mt-24 mb-6">
             Recent work
           </h2>
-          <div className="flex justify-between items-center flex-col md:flex-row">
+          <div className="flex justify-between items-center flex-col md:flex-row my-4">
             <div className="flex justify-center mb-4 rounded-lg shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]">
               <img className="object-fit max-w-full sm:max-w-xs lg:max-w-md rounded-lg " src={thrive} alt="website" />
             </div>
             <ScrollAnimation animateIn='bounceInRight'
               animateOut='bounceOutLeft'>
+              <div className="ml-0 md:ml-12 rounded-xl">
 
-              <div className="ml-0 md:ml-12 p-2 ">
-                <a href="https://alinakulakovska.github.io/Thrive/" ><h3 className="text-right text-2xl m-0 p-0 md:text-4xl italic text-gray-800 dark:text-gray-200 underline hover:sunderline"> {languageData.sitename}</h3></a>
+                <div className="text-md py-5 text-justify text-gray-800 ">
 
-                <div className="text-md py-5 text-justify text-gray-800 dark:text-gray-200 ">
-                  <p>
-                  {languageData.sitedesc}
-                 </p>
-                 {languageData.siteul}
-        
+                  <div class="item">
+                    <div class="inner">
+                      <a href="https://alinakulakovska.github.io/Thrive/" >
+                        <h3 className="text-right text-2xl m-0 p-0 md:text-4xl italic underline hover:no-underline"> {languageData.zoositename}</h3>
+                      </a>
+                      {languageData.zoositedesc}
+                    </div>
+                  </div>
                 </div>
               </div>
-
-
             </ScrollAnimation>
-
           </div>
 
-          <div className="flex justify-between items-center flex-col md:flex-row">
+          <div className="flex justify-between items-center flex-col md:flex-row my-4">
             <ScrollAnimation animateIn='bounceInLeft'
               animateOut='bounceOutRight'>
-              <div className="ml-0 md:mr-12 text-justify text-gray-800 dark:text-gray-200">
-                <a href="https://toyhou.se/_AngeLux_/characters/folder:4475338" > <h3 className="text-right text-2xl m-0 p-0 md:text-4xl italic underline hover:no-underline text-gray-800 dark:text-gray-200">Codes for comercial use</h3> </a>
-                <p className="text-md py-5  ">
-                  Within this collection, you'll find a series of meticulously crafted codes designed specifically for selling templates on Toyhouse. These templates serve as an indispensable tool for designers seeking to vividly portray their characters and worlds on the Toyhouse platform.
-                </p>
-                <ul className="list-disc"><b>Technologies Utilized:</b>
-                  <li className="mt-2">Bootstrap: Leveraging the power and flexibility of Bootstrap framework, I ensured seamless responsiveness and dynamic functionality across various devices and screen sizes.
-                  </li>
-                  <li className="mt-2">HTML: The backbone of web development, HTML was expertly employed to structure the content, ensuring clarity and accessibility.</li>
-                  <li className="mt-2">CSS: With CSS, I breathed life into the designs, meticulously crafting styles to enhance visual appeal and user experience.</li>
-                  <li>Figma: Prior to coding, meticulous design work was carried out in Figma, laying the groundwork for visually stunning and intuitive interfaces.
-                  </li>
-                </ul>
+              <div className="ml-0 md:mr-12 text-justify p-4 rounded-xl text-gray-800">
+
+
+                <div class="item">
+                  <div class="inner">
+                    <a href="https://toyhou.se/_AngeLux_/characters/folder:4475338" > <h3 className="text-right text-2xl m-0 p-0 md:text-4xl italic underline hover:no-underline">                    {languageData.toyname}</h3> </a>
+                    {languageData.toydesc}
+                  </div>
+                </div>
+
+               
+
+
               </div>
 
             </ScrollAnimation>
-            <Slider {...settings} className="mb-16 w-full md:w-2/5">
-              <div>
-                <img className="rounded-lg" src={'https://storage.ko-fi.com/cdn/useruploads/display/b21601f8-2333-4e08-99f7-6d8c1d5132b5_toyhou.se_~world_168844.p2u-world-csshtml.png'} alt="person" />
+            <Slider {...settings} className="mb-16 w-full md:w-2/5 ">
+              <div className="">
+                <img className="rounded-lg border-4 border-white" src={'https://storage.ko-fi.com/cdn/useruploads/display/b21601f8-2333-4e08-99f7-6d8c1d5132b5_toyhou.se_~world_168844.p2u-world-csshtml.png'} alt="person" />
               </div>
               <div>
-                <img className="rounded-lg" src={'https://storage.ko-fi.com/cdn/useruploads/display/28f4ae59-b8ed-490e-acad-c4eb2abecf05_1.jpg'} alt="person" />
+                <img className="rounded-lg  border-4 border-gray-700" src={'https://storage.ko-fi.com/cdn/useruploads/display/28f4ae59-b8ed-490e-acad-c4eb2abecf05_1.jpg'} alt="person" />
               </div>
               <div>
-                <img className="rounded-lg" src={'https://storage.ko-fi.com/cdn/useruploads/display/da181b0c-29e9-4aea-ae65-2455665b6e8d_image_2024-03-06_134844241.png'} alt="person" />
+                <img className="rounded-lg  border-4 border-gray-700" src={'https://storage.ko-fi.com/cdn/useruploads/display/da181b0c-29e9-4aea-ae65-2455665b6e8d_image_2024-03-06_134844241.png'} alt="person" />
               </div>
             </Slider>
           </div>
-          <div className="flex justify-between items-center flex-col md:flex-row">
+          <div className="flex justify-between items-center flex-col md:flex-row my-4">
             <Slider {...settings} className="mb-16 w-full md:w-2/5 ml-0 md:mr-12">
               <div >
                 <img className="rounded-lg" src={zoomain} alt="zoo" />
@@ -175,27 +176,33 @@ function App() {
 
             <ScrollAnimation animateIn='bounceInRight'
               animateOut='bounceOutLeft'>
-              <div>
-                <a href="https://alinakulakovska.github.io/Zoo/" > <h3 className="text-right text-2xl m-0 p-0 md:text-4xl italic underline hover:no-underline text-gray-800 dark:text-gray-200">Zoo website Project</h3> </a>
-                <div className="text-md py-5 text-justify text-gray-800 dark:text-gray-200 ">
-                  <p className="mt-2"><b>Price Rate Conversion via API: </b> Real-time price rate conversion via API ensures that visitors from around the globe can easily understand ticket prices, facilitating a seamless booking experience.</p>
-                  <p className="mt-2"><b>Map with Animal Description: </b> An interactive map feature guides users through the zoo's layout while providing insightful descriptions of each animal exhibit, enriching the visitor's journey with educational content.</p>
-                  <p className="mt-2"><b>Ticket Purchase Page:</b> with input from which sends out email with purchase information</p>
-                  <p className="mt-2"><b>Carousel of Images:</b>  A visually stunning carousel showcases captivating images of various animals, offering visitors a glimpse into the beauty and diversity of the zoo's inhabitants.</p>
-                  <p className="mt-2"><b>Modal with animation: </b></p>
-                  <p className="mt-2"><b>For this project i used JS, HTML, CSS</b></p>
+              <div className=" rounded-xl text-gray-800  ">
+                <div class="item">
+                  <div class="inner">
+                    <a href="https://alinakulakovska.github.io/Zoo/" > <h3 className="text-right text-2xl m-0 p-0 md:text-4xl italic underline hover:no-underline ">Zoo website Project</h3> </a>
+                    <div className="text-md py-5 text-justify ">
+                      <p className="mt-2"><b>Price Rate Conversion via API: </b> Real-time price rate conversion via API ensures that visitors from around the globe can easily understand ticket prices, facilitating a seamless booking experience.</p>
+                      <p className="mt-2"><b>Map with Animal Description: </b> An interactive map feature guides users through the zoo's layout while providing insightful descriptions of each animal exhibit, enriching the visitor's journey with educational content.</p>
+                      <p className="mt-2"><b>Ticket Purchase Page:</b> with input from which sends out email with purchase information</p>
+                      <p className="mt-2"><b>Carousel of Images:</b>  A visually stunning carousel showcases captivating images of various animals, offering visitors a glimpse into the beauty and diversity of the zoo's inhabitants.</p>
+                      <p className="mt-2"><b>Modal with animation: </b></p>
+                      <p className="mt-2"><b>For this project i used JS, HTML, CSS</b></p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </ScrollAnimation>
           </div>
 
 
-          <div className="flex justify-between items-center flex-col md:flex-row">
+          <div className="flex justify-between items-center flex-col md:flex-row my-4">
             <ScrollAnimation animateIn='bounceInLeft'
               animateOut='bounceOutRight'>
-              <div className="ml-0 md:mr-12">
-                <a href="https://alinakulakovska.github.io/Productshop/" > <h3 className="text-right text-2xl m-0 p-0 md:text-4xl italic underline hover:no-underline text-gray-800 dark:text-gray-200">E-Commerce Website Project: Smart-Watch Store</h3> </a>
-                <div className="text-md py-5 text-justify text-gray-800 dark:text-gray-200 ">
+              <div className="ml-0 md:mr-12 rounded-xl my-4 text-gray-800">
+              <div class="item">
+                  <div class="inner">
+                <a href="https://alinakulakovska.github.io/Productshop/" > <h3 className="text-right text-2xl m-0 p-0 md:text-4xl italic underline hover:no-underline ">E-Commerce Website Project: Smart-Watch Store</h3> </a>
+                <div className="text-md py-5 text-justify">
                   <p className="mt-2"><b>Flowy Front Page: </b> Real-time price rate conversion via API ensures that visitors from around the globe can easily understand ticket prices, facilitating a seamless booking experience.</p>
                   <p className="mt-2"><b>Purchase Page: </b> The purchase page provides customers with the ability to customize their order by selecting their preferred color and quantity for each product. Detailed descriptions of the watch's characteristics help customers make informed decisions.
                   </p>
@@ -203,6 +210,8 @@ function App() {
                   </p>
                   <p className="mt-2"><b>For this project i used JS, HTML, CSS</b></p>
                 </div>
+              </div>
+              </div>
               </div>
             </ScrollAnimation>
             <Slider {...settings} className="mb-16 w-full md:w-2/5">
@@ -218,15 +227,17 @@ function App() {
             </Slider>
           </div>
 
-          <div className="flex justify-between items-center flex-col md:flex-row">
+          <div className="flex justify-between items-center flex-col md:flex-row my-4">
             <div className="flex justify-center mb-4 rounded-lg shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]">
               <img className="object-fit max-w-full sm:max-w-xs lg:max-w-md rounded-lg " src={'https://github.com/AlinaKulakovska/QuizAppReact/raw/main/public/image_2023-05-03_16-48-18.png'} alt="website" />
             </div>
             <ScrollAnimation animateIn='bounceInRight'
               animateOut='bounceOutLeft'>
-              <div className="ml-0 md:ml-12 p-2 ">
-                <h3 className="text-right text-2xl m-0 p-0 md:text-4xl italic text-gray-800 dark:text-gray-200 ">Quiz App with Timer using React</h3>
-                <div className="text-md py-5 text-justify text-gray-800 dark:text-gray-200 ">
+              <div className="ml-0 md:ml-12 rounded-xl text-gray-800">
+              <div class="item">
+                  <div class="inner">
+                <h3 className="text-right text-2xl m-0 p-0 md:text-4xl italic  ">Quiz App with Timer using React</h3>
+                <div className="text-md py-5 text-justify">
                   <p>
                     This Quiz App with Timer using React offers a fun and immersive way to test your knowledge while sharpening your cognitive skills </p>
                   <p className="mt-2"><b>Multiple-Choice Questions:</b>  </p>
@@ -234,6 +245,8 @@ function App() {
                   <p className="mt-2"><b>Multiple-Point Questions:</b> </p>
                   <p className="mt-2"><b>Timer: </b> </p>
                 </div>
+              </div>
+              </div>
               </div>
             </ScrollAnimation>
           </div>
