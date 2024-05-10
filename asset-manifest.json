@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Resume/static/css/main.f3144629.css",
-    "main.js": "/Resume/static/js/main.aa14ff08.js",
+    "main.css": "/Resume/static/css/main.4ce1d53f.css",
+    "main.js": "/Resume/static/js/main.d8db9143.js",
     "static/js/496.c2392886.chunk.js": "/Resume/static/js/496.c2392886.chunk.js",
     "static/media/alinakulakovska.github.io_Productshop_.png": "/Resume/static/media/alinakulakovska.github.io_Productshop_.d41f0135de19b0d168fa.png",
     "static/media/alinakulakovska.github.io_Zoo_ (1).png": "/Resume/static/media/alinakulakovska.github.io_Zoo_ (1).80f5ad123811102cf923.png",
@@ -16,12 +16,12 @@
     "static/media/alinakulakovska.github.io_Productshop_busket.html.png": "/Resume/static/media/alinakulakovska.github.io_Productshop_busket.html.1ae45296be6af6da37ca.png",
     "static/media/MyLogo2.png": "/Resume/static/media/MyLogo2.2f03b510f7d648fc538b.png",
     "index.html": "/Resume/index.html",
-    "main.f3144629.css.map": "/Resume/static/css/main.f3144629.css.map",
-    "main.aa14ff08.js.map": "/Resume/static/js/main.aa14ff08.js.map",
+    "main.4ce1d53f.css.map": "/Resume/static/css/main.4ce1d53f.css.map",
+    "main.d8db9143.js.map": "/Resume/static/js/main.d8db9143.js.map",
     "496.c2392886.chunk.js.map": "/Resume/static/js/496.c2392886.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f3144629.css",
-    "static/js/main.aa14ff08.js"
+    "static/css/main.4ce1d53f.css",
+    "static/js/main.d8db9143.js"
   ]
 }
