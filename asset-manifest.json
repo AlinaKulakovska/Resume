@@ -1,27 +1,31 @@
 {
   "files": {
-    "main.css": "/Resume/static/css/main.4ce1d53f.css",
-    "main.js": "/Resume/static/js/main.d8db9143.js",
-    "static/js/496.c2392886.chunk.js": "/Resume/static/js/496.c2392886.chunk.js",
+    "main.css": "/Resume/static/css/main.f84dc34f.css",
+    "main.js": "/Resume/static/js/main.2514f877.js",
+    "static/js/496.dd8cec96.chunk.js": "/Resume/static/js/496.dd8cec96.chunk.js",
     "static/media/alinakulakovska.github.io_Productshop_.png": "/Resume/static/media/alinakulakovska.github.io_Productshop_.d41f0135de19b0d168fa.png",
     "static/media/alinakulakovska.github.io_Zoo_ (1).png": "/Resume/static/media/alinakulakovska.github.io_Zoo_ (1).80f5ad123811102cf923.png",
+    "static/media/ActiveLifeLOGmain.png": "/Resume/static/media/ActiveLifeLOGmain.15d0067e081b742e93cc.png",
     "static/media/alinakulakovska.github.io_Thrive_ (1).png": "/Resume/static/media/alinakulakovska.github.io_Thrive_ (1).eda309368683534883d4.png",
     "static/media/alinakulakovska.github.io_Zoo_Map.html.png": "/Resume/static/media/alinakulakovska.github.io_Zoo_Map.html.052592fe17108b9cd155.png",
     "static/media/portrait.png": "/Resume/static/media/portrait.95eb40e9b897533f53ce.png",
     "static/media/alinakulakovska.github.io_Zoo_.png": "/Resume/static/media/alinakulakovska.github.io_Zoo_.63e455232ab1b46d4125.png",
+    "static/media/ActiveLifeLOGplan.png": "/Resume/static/media/ActiveLifeLOGplan.f111ca2ea50f2c1b32f1.png",
+    "static/media/ActiveLifeLOGexercises.png": "/Resume/static/media/ActiveLifeLOGexercises.1485ac95c26e26f5933d.png",
     "static/media/alinakulakovska.github.io_Zoo_Prices.html.png": "/Resume/static/media/alinakulakovska.github.io_Zoo_Prices.html.d9303a0adb6371353449.png",
     "static/media/alinakulakovska.github.io_Productshop_buy.html (1).png": "/Resume/static/media/alinakulakovska.github.io_Productshop_buy.html (1).6c3892eb653e1b474ce6.png",
+    "static/media/ActiveLifeLOGtracker.png": "/Resume/static/media/ActiveLifeLOGtracker.0df28a377f034777d9b0.png",
     "static/media/soft-wallpaper.png": "/Resume/static/media/soft-wallpaper.cd84e7fcd3a86616c18e.png",
     "static/media/alinakulakovska.github.io_Zoo_Tickets.html.png": "/Resume/static/media/alinakulakovska.github.io_Zoo_Tickets.html.3ef169ad5bd7e362eed8.png",
     "static/media/alinakulakovska.github.io_Productshop_busket.html.png": "/Resume/static/media/alinakulakovska.github.io_Productshop_busket.html.1ae45296be6af6da37ca.png",
     "static/media/MyLogo2.png": "/Resume/static/media/MyLogo2.2f03b510f7d648fc538b.png",
     "index.html": "/Resume/index.html",
-    "main.4ce1d53f.css.map": "/Resume/static/css/main.4ce1d53f.css.map",
-    "main.d8db9143.js.map": "/Resume/static/js/main.d8db9143.js.map",
-    "496.c2392886.chunk.js.map": "/Resume/static/js/496.c2392886.chunk.js.map"
+    "main.f84dc34f.css.map": "/Resume/static/css/main.f84dc34f.css.map",
+    "main.2514f877.js.map": "/Resume/static/js/main.2514f877.js.map",
+    "496.dd8cec96.chunk.js.map": "/Resume/static/js/496.dd8cec96.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4ce1d53f.css",
-    "static/js/main.d8db9143.js"
+    "static/css/main.f84dc34f.css",
+    "static/js/main.2514f877.js"
   ]
 }
