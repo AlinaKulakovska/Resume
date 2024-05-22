@@ -236,7 +236,7 @@ function App() {
               <div className="ml-0 md:ml-12 rounded-xl text-gray-800">
               <div class="item">
                   <div class="inner">
-                <h3 className="text-right text-2xl m-0 p-0 md:text-4xl italic  ">Quiz App with Timer using React</h3>
+               <a href="https://alinakulakovska.github.io/QuizAppReact/"><h3 className="text-right text-2xl m-0 p-0 md:text-4xl italic  ">Quiz App with Timer using React</h3></a> 
                 <div className="text-md py-5 text-justify">
                   <p>
                     This Quiz App with Timer using React offers a fun and immersive way to test your knowledge while sharpening your cognitive skills </p>
