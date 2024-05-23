@@ -101,7 +101,7 @@ function App() {
         <MyStack />
 
 
-        <div className=" px-6 lg:px-20 ">
+        <div className=" px-6 lg:px-20  text-gray-800 dark:text-slate-200">
           <h2 className="text-4xl py-2   text-center text-[#F6C4C4] font-medium md:text-6xl mt-24 mb-6">
             Recent work
           </h2>
@@ -109,8 +109,7 @@ function App() {
           <div className="flex justify-between items-center flex-col md:flex-row my-4">
             <ScrollAnimation animateIn='bounceInLeft'
               animateOut='bounceOutRight'>
-              <div className="ml-0 md:mr-12 rounded-xl my-4 text-gray-800">
-
+              <div className="ml-0 md:mr-12 rounded-xl my-4  text-gray-800 dark:text-slate-200">
                 <a href="https://alinakulakovska.github.io/ActiveLifeLOG/" >
                   <h3 className="text-right text-2xl m-0 p-0 md:text-4xl italic underline hover:no-underline ">
                     {languageData.activesitename}
@@ -144,7 +143,7 @@ function App() {
               animateOut='bounceOutLeft'>
               <div className="ml-0 md:ml-12 rounded-xl">
 
-                <div className="text-md py-5 text-justify text-gray-800 ">
+                <div className="text-md py-5 text-justify  text-gray-800 dark:text-slate-200 ">
 
 
                   <a href="https://alinakulakovska.github.io/Thrive/" >
@@ -160,7 +159,7 @@ function App() {
           <div className="flex justify-between items-center flex-col md:flex-row my-4">
             <ScrollAnimation animateIn='bounceInLeft'
               animateOut='bounceOutRight'>
-              <div className="ml-0 md:mr-12 text-justify p-4 rounded-xl text-gray-800">
+              <div className="ml-0 md:mr-12 text-justify p-4 rounded-xl  text-gray-800 dark:text-slate-200">
                 <a href="https://toyhou.se/_AngeLux_/characters/folder:4475338" > <h3 className="text-right text-2xl m-0 p-0 md:text-4xl italic underline hover:no-underline">                    {languageData.toyname}</h3> </a>
                 {languageData.toydesc}
               </div>
@@ -199,7 +198,7 @@ function App() {
 
             <ScrollAnimation animateIn='bounceInRight'
               animateOut='bounceOutLeft'>
-              <div className=" rounded-xl text-gray-800  ">
+              <div className=" rounded-xl  text-gray-800 dark:text-slate-200  ">
 
                 <a href="https://alinakulakovska.github.io/Zoo/" > <h3 className="text-right text-2xl m-0 p-0 md:text-4xl italic underline hover:no-underline ">Zoo website Project</h3> </a>
                 <div className="text-md py-5 text-justify ">
@@ -219,7 +218,7 @@ function App() {
           <div className="flex justify-between items-center flex-col md:flex-row my-4">
             <ScrollAnimation animateIn='bounceInLeft'
               animateOut='bounceOutRight'>
-              <div className="ml-0 md:mr-12 rounded-xl my-4 text-gray-800">
+              <div className="ml-0 md:mr-12 rounded-xl my-4  text-gray-800 dark:text-slate-200">
 
                 <a href="https://alinakulakovska.github.io/Productshop/" > <h3 className="text-right text-2xl m-0 p-0 md:text-4xl italic underline hover:no-underline ">E-Commerce Website Project: Smart-Watch Store</h3> </a>
                 <div className="text-md py-5 text-justify">
@@ -252,7 +251,7 @@ function App() {
             </div>
             <ScrollAnimation animateIn='bounceInRight'
               animateOut='bounceOutLeft'>
-              <div className="ml-0 md:ml-12 rounded-xl text-gray-800">
+              <div className="ml-0 md:ml-12 rounded-xl  text-gray-800 dark:text-slate-200">
 
                 <a href="https://alinakulakovska.github.io/QuizAppReact/"><h3 className="text-right text-2xl m-0 p-0 md:text-4xl italic  underline hover:no-underline">Quiz App with Timer using React</h3></a>
                 <div className="text-md py-5 text-justify">

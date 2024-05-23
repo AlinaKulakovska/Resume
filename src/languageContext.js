@@ -42,7 +42,7 @@ let en = {
         </p>
         <p className="mt-2"><b>Workout Collection:</b>  Access an extensive collection of curated workouts, categorized based on duration, intensity, and fitness goals. Users can filter workouts to suit their preferences or opt for a random selection to keep their routines exciting and varied.
         </p>
-        <p className="mt-2"><b>Workout Details:</b>  Dive deeper into specific workouts with detailed descriptions, accompanied by Spotify embedded playlists, YouTube workout videos, or structured lists of exercises with timers. This feature enhances user engagement by providing multimedia resources to support their workout sessions.
+        <p className="mt-2"><b>Workout Details:</b>  Dive deeper into specific workouts with detailed descriptions, accompanied by Spotify embedded playlists, YouTube workout videos, or structured lists of exercises with timers.
         </p>
         <p className="mt-2"><b>Landing Page:</b>  Engage users from the outset with a visually appealing and informative landing page that highlights the core functionalities of ActiveLifeLOG.
 
@@ -86,11 +86,11 @@ let ua = {
     "activesitedesc": <div>
         <p>ActiveLifeLOG - це комплексна платформа для фітнес-трекінгу, розроблена, щоб розширити можливості користувачів на шляху до здорового способу життя. Завдяки безшовній інтеграції інноваційних функцій та інтуїтивно зрозумілому дизайну.</p>
         <p className="mt-2"><b>Процес автентифікації з Firebase: </b>Забезпечте безпечну та спрощену роботу користувачів з автентифікацією Firebase, дозволяючи користувачам реєструватися та входити в систему без зайвих зусиль.</p>
-        <p className="mt-2"><b>Трекер з календарем: </b> Залишайтеся організованими та мотивованими за допомогою динамічного календаря трекера, що працює на основі бази даних Firebase Realtime Database. Users can easily schedule and log their workouts, creating a personalized fitness routine tailored to their needs.
+        <p className="mt-2"><b>Трекер з календарем: </b> Залишайтеся організованими та мотивованими за допомогою динамічного календаря трекера, що працює на основі бази даних Firebase Realtime Database. Користувачі можуть легко планувати та реєструвати свої тренування, створюючи персоналізовану фітнес-програму, адаптовану до їхніх потреб.
         </p>
-        <p className="mt-2"><b>Колекція тренувань:</b>  Доступ до великої колекції кураторських тренувань, класифікованих за тривалістю, інтенсивністю та фітнес-цілями. Користувачі можуть фільтрувати тренування відповідно до своїх уподобань або вибрати випадковий вибір, щоб урізноманітнити свої тренування.
+        <p className="mt-2"><b>Колекція тренувань:</b>  Доступ до великої колекції кураторських тренувань, класифікованих за тривалістю. Користувачі можуть фільтрувати тренування відповідно до своїх уподобань або вибрати випадковий вибір, щоб урізноманітнити свої тренування.
         </p>
-        <p className="mt-2"><b>Деталі тренування:</b>  Занурюйтесь у конкретні тренування з детальними описами, що супроводжуються вбудованими плейлистами Spotify, відеозаписами тренувань на YouTube або структурованими списками вправ з таймерами. Ця функція підвищує залученість користувачів, надаючи мультимедійні ресурси для підтримки їхніх тренувань.
+        <p className="mt-2"><b>Деталі тренування:</b>  Занурюйтесь у конкретні тренування з детальними описами, що супроводжуються вбудованими плейлистами Spotify, відеозаписами тренувань на YouTube або структурованими списками вправ з таймерами.
         </p>
         <p className="mt-2"><b>Лендінг:</b>  Залучайте користувачів з самого початку за допомогою візуально привабливої та інформативної цільової сторінки, яка висвітлює основні функціональні можливості ActiveLifeLOG.
         </p>
