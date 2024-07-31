@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Resume/static/css/main.e887b054.css",
-    "main.js": "/Resume/static/js/main.a1cbfa7c.js",
+    "main.css": "/Resume/static/css/main.bf05a36d.css",
+    "main.js": "/Resume/static/js/main.d29901fe.js",
     "static/js/496.dd8cec96.chunk.js": "/Resume/static/js/496.dd8cec96.chunk.js",
     "static/media/alinakulakovska.github.io_Productshop_.png": "/Resume/static/media/alinakulakovska.github.io_Productshop_.d41f0135de19b0d168fa.png",
     "static/media/alinakulakovska.github.io_Zoo_ (1).png": "/Resume/static/media/alinakulakovska.github.io_Zoo_ (1).80f5ad123811102cf923.png",
@@ -18,14 +18,17 @@
     "static/media/soft-wallpaper.png": "/Resume/static/media/soft-wallpaper.cd84e7fcd3a86616c18e.png",
     "static/media/alinakulakovska.github.io_Zoo_Tickets.html.png": "/Resume/static/media/alinakulakovska.github.io_Zoo_Tickets.html.3ef169ad5bd7e362eed8.png",
     "static/media/alinakulakovska.github.io_Productshop_busket.html.png": "/Resume/static/media/alinakulakovska.github.io_Productshop_busket.html.1ae45296be6af6da37ca.png",
+    "static/media/GameMatchSwipe.jpg": "/Resume/static/media/GameMatchSwipe.49a557419176689a70a9.jpg",
+    "static/media/GameMatchProfile.jpg": "/Resume/static/media/GameMatchProfile.fa7be8dc4f839bc9b46f.jpg",
+    "static/media/GameMatchText.jpg": "/Resume/static/media/GameMatchText.db49d3b889801706500e.jpg",
     "static/media/MyLogo2.png": "/Resume/static/media/MyLogo2.2f03b510f7d648fc538b.png",
     "index.html": "/Resume/index.html",
-    "main.e887b054.css.map": "/Resume/static/css/main.e887b054.css.map",
-    "main.a1cbfa7c.js.map": "/Resume/static/js/main.a1cbfa7c.js.map",
+    "main.bf05a36d.css.map": "/Resume/static/css/main.bf05a36d.css.map",
+    "main.d29901fe.js.map": "/Resume/static/js/main.d29901fe.js.map",
     "496.dd8cec96.chunk.js.map": "/Resume/static/js/496.dd8cec96.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e887b054.css",
-    "static/js/main.a1cbfa7c.js"
+    "static/css/main.bf05a36d.css",
+    "static/js/main.d29901fe.js"
   ]
 }
