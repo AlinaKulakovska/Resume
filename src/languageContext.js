@@ -118,9 +118,6 @@ let ua = {
      </p>
      <p className="mt-2"><b>Чат: </b>  Обмін повідомленнями в реальному часі з відповідними користувачами
      </p>
-     <p className="mt-2"><b>Landing Page:</b>  Engage users from the outset with a visually appealing and informative landing page that highlights the core functionalities of ActiveLifeLOG.
-
-     </p>
      <p className="mt-2"><b>Фронтенд: React, JavaScript, CSS, HTML. Backend: Firebase для автентифікації, управління профілями, пошуку та чату в реальному часі.</b></p>
  </div>,
 }
