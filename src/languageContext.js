@@ -49,6 +49,19 @@ let en = {
         </p>
         <p className="mt-2"><b>For this project i used React, Js, HTML, Tailwind, Sass, Firebase</b></p>
     </div>,
+     "gamematchdesc": <div>
+      GameMatch is an innovative dating app tailored for gamers, where users can connect based on their favorite video games. The app allows users to create detailed profiles, discover potential matches, and interact through a gaming-centric platform.
+                  <p className="mt-2"><b>Profile Creation: </b> Users can build profiles with personal details, favorite games, and interests.
+                  </p>
+                  <p className="mt-2"><b>Discovery & Likes: </b> Browse and filter profiles, like others, and see who liked you.
+                  </p>
+                  <p className="mt-2"><b>Matching:</b> Find matches based on mutual interests and game preferences.
+                  </p>
+                  <p className="mt-2"><b>Chat:</b> Real-time messaging with matched users</p>
+
+                  <p className="mt-2">Frontend: React, JavaScript, CSS, HTML.
+                    Backend: Firebase for authentication, profile management, matching, and real-time chat.</p>
+     </div>,
 }
 let ua = {
     "name": "Аліна Кулаковська",
@@ -96,7 +109,20 @@ let ua = {
         </p>
         <p className="mt-2"><b>Для цього проекту я використовував React, Js, HTML, Tailwind, Sass, Firebase</b></p>
     </div>,
+ "gamematchdesc": <div>
+     <p>GameMatch - це інноваційний додаток для знайомств, розроблений для геймерів, де користувачі можуть знайомитися на основі своїх улюблених відеоігор. Додаток дозволяє користувачам створювати детальні профілі, знаходити потенційних партнерів та взаємодіяти через ігрову платформу.</p>
+     <p className="mt-2"><b>Створення профілю:</b>Користувачі можуть створювати профілі з особистими даними, улюбленими іграми та інтересами.</p>
+     <p className="mt-2"><b>Знайомства та вподобання: </b> Переглядайте та фільтруйте профілі, вподобайте інших і дізнавайтеся, кому ви сподобалися.
+     </p>
+     <p className="mt-2"><b>Підбір партнерів: </b>  знаходьте партнерів на основі спільних інтересів та ігрових уподобань.
+     </p>
+     <p className="mt-2"><b>Чат: </b>  Обмін повідомленнями в реальному часі з відповідними користувачами
+     </p>
+     <p className="mt-2"><b>Landing Page:</b>  Engage users from the outset with a visually appealing and informative landing page that highlights the core functionalities of ActiveLifeLOG.
 
+     </p>
+     <p className="mt-2"><b>Фронтенд: React, JavaScript, CSS, HTML. Backend: Firebase для автентифікації, управління профілями, пошуку та чату в реальному часі.</b></p>
+ </div>,
 }
 
 const LanguageContext = createContext();

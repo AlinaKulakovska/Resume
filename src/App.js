@@ -110,7 +110,7 @@ function App() {
           </h2>
 
           <div className="flex justify-between items-center flex-col md:flex-row my-4">
-            <Slider {...settings} className="mb-16 w-full md:w-2/5">
+            <Slider {...settings} className="mb-16 mr-0 md:mr-12 w-full md:w-2/5">
               <div className="max-h-96 overflow-y-auto  rounded-lg  ">
                 <img className="rounded-lg " src={gamematchmatch} alt="gamematchmatch" />
               </div>
@@ -123,23 +123,13 @@ function App() {
             </Slider>
             <ScrollAnimation animateIn='bounceInLeft'
               animateOut='bounceOutRight'>
-              <div className="ml-0 md:ml-12 rounded-xl my-4  text-gray-800 dark:text-slate-200">
-                <a href="https://alinakulakovska.github.io/ActiveLifeLOG/" >
+              <div className="rounded-xl my-4  text-gray-800 dark:text-slate-200">
+                <a href="https://alinakulakovska.github.io/GameMatch/" >
                   <h3 className="text-right text-2xl m-0 p-0 md:text-4xl italic underline hover:no-underline ">
                     GameMatch
                   </h3> </a>
                 <div className="text-md py-5 text-justify">
-                  GameMatch is an innovative dating app tailored for gamers, where users can connect based on their favorite video games. The app allows users to create detailed profiles, discover potential matches, and interact through a gaming-centric platform.
-                  <p className="mt-2"><b>Profile Creation: </b> Users can build profiles with personal details, favorite games, and interests.
-                  </p>
-                  <p className="mt-2"><b>Discovery & Likes: </b> Browse and filter profiles, like others, and see who liked you.
-                  </p>
-                  <p className="mt-2"><b>Matching:</b> Find matches based on mutual interests and game preferences.
-                  </p>
-                  <p className="mt-2"><b>Chat:</b> Real-time messaging with matched users</p>
-
-                  <p className="mt-2">Frontend: React, JavaScript, CSS, HTML for a dynamic and responsive interface.
-                    Backend: Firebase for authentication, profile management, matching, and real-time chat.</p>
+                {languageData.gamematchdesc}
                 </div>
               </div>
             </ScrollAnimation>
