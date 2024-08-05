@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Resume/static/css/main.bf05a36d.css",
-    "main.js": "/Resume/static/js/main.d29901fe.js",
-    "static/js/496.dd8cec96.chunk.js": "/Resume/static/js/496.dd8cec96.chunk.js",
+    "main.css": "/Resume/static/css/main.910700bd.css",
+    "main.js": "/Resume/static/js/main.c4e3e097.js",
+    "static/js/478.81014dff.chunk.js": "/Resume/static/js/478.81014dff.chunk.js",
     "static/media/alinakulakovska.github.io_Productshop_.png": "/Resume/static/media/alinakulakovska.github.io_Productshop_.d41f0135de19b0d168fa.png",
     "static/media/alinakulakovska.github.io_Zoo_ (1).png": "/Resume/static/media/alinakulakovska.github.io_Zoo_ (1).80f5ad123811102cf923.png",
     "static/media/ActiveLifeLOGmain.png": "/Resume/static/media/ActiveLifeLOGmain.15d0067e081b742e93cc.png",
@@ -23,12 +23,12 @@
     "static/media/GameMatchText.jpg": "/Resume/static/media/GameMatchText.db49d3b889801706500e.jpg",
     "static/media/MyLogo2.png": "/Resume/static/media/MyLogo2.2f03b510f7d648fc538b.png",
     "index.html": "/Resume/index.html",
-    "main.bf05a36d.css.map": "/Resume/static/css/main.bf05a36d.css.map",
-    "main.d29901fe.js.map": "/Resume/static/js/main.d29901fe.js.map",
-    "496.dd8cec96.chunk.js.map": "/Resume/static/js/496.dd8cec96.chunk.js.map"
+    "main.910700bd.css.map": "/Resume/static/css/main.910700bd.css.map",
+    "main.c4e3e097.js.map": "/Resume/static/js/main.c4e3e097.js.map",
+    "478.81014dff.chunk.js.map": "/Resume/static/js/478.81014dff.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bf05a36d.css",
-    "static/js/main.d29901fe.js"
+    "static/css/main.910700bd.css",
+    "static/js/main.c4e3e097.js"
   ]
 }
